@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Project</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body>
+    <div class="grid gap-4 m-4 sm:grid-cols-12">
+      <div
+        class="rounded shadow-xl bg-orange-500 min-h-[100px] sm:col-span-2 hidden sm:block"
+      >
+        1
+      </div>
+      <div class="rounded shadow-xl bg-teal-500 min-h-[100px] sm:col-span-8">
+        2
+      </div>
+      <div
+        class="rounded shadow-xl bg-teal-500 min-h-[100px] sm:col-span-2 hidden sm:block"
+      >
+        2
+      </div>
+    </div>
+    <button class="btn drop-shadow-xl w-60 rounded m-5 text-violet-600">
+      Click Me!
+    </button>
+  </body>
+</html>
